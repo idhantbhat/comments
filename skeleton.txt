@@ -1,0 +1,6 @@
+create a basic flask app
+use the youtube api so whenever you pass id it gives one comment
+make it give the first 200 comments
+pass the value that you get from the user input
+render the comments on the webpage
+filter only the negative comments

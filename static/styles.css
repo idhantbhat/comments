@@ -1,0 +1,50 @@
+body {
+			background-image: url('webbackground.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0;
+			padding: 0;
+		}
+
+.navbar {
+			background-color: red;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px; /* Increase the padding to make the navbar taller */
+		}
+.navbar a {
+			color: white;
+			font-size: 40px;
+			font-weight: bold;
+			text-decoration: none;
+			margin-right: 20px;
+		}
+.index {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    margin-top: 10px;
+}
+button.index {
+  background-color: red;
+}
+
+
+.index h1 {
+    font-size: 1px;
+    margin-bottom: 1rem;
+}
+
+.index input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
